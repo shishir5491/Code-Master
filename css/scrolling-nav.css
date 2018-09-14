@@ -1,0 +1,296 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+/*global css */
+
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Lato', sans-serif;
+}
+.property{
+	color:#f62e2a!important;
+}
+
+/* header css */
+.navbar-light .navbar-nav .nav-link{
+	color: black!important;
+	padding: 10px 13px;
+}
+
+.header{
+	height: 60px!important;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #FF5722!important;
+}
+.navbar-light.navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+	color: #FF5722!important;
+}
+.bg-light{
+	background-color: white!important;
+}
+.header-banner{
+	background: url(../img/banner.png) no-repeat center top;
+	background-size: cover;
+}
+
+.overlay{
+	background: rgba(0,0,0,0.4)!important;
+}
+
+.header-tag{
+	padding: 200px 0px 150px 0px;
+}
+
+.header-tag h1{
+	font-weight: bold;
+}
+
+.navbar-brand h4{
+	font-weight: bold;
+}
+
+.about-us button:hover{
+	background-color:#f62e2a!important;
+	color: white!important;
+	-webkit-transition: 0.5s ease;
+	-moz-transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	transition: 0.5s ease;
+	
+}
+
+.about-us img:hover{
+	transform: translate(20px, 40px);
+	-webkit-transition: 0.5s ease;
+	-moz-transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	transition: 0.5s ease;
+	
+}
+
+.two{
+	margin-top: 30px;
+}
+
+.one{
+	-webkit-box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    4px 4px 5px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         4px 4px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+/* our service section ssatrt */
+
+.our-service{
+	background-color: #f4f4f4;
+}
+
+.one:hover{
+	background-color:#f62e2a!important;
+	color: white!important;
+	-webkit-transition: 0.5s ease;
+	-moz-transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	transition: 0.5s ease;
+}
+
+.one{
+	border-radius: 10px!important;
+}
+
+.img-hover{
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+
+.image-hover-content{
+	position: absolute;
+	height: 100%;
+	top: 0;
+	right: -100%;
+	background: rgba(254,49,56,0.7);
+	text-align: center;
+	width: 100%;
+
+
+}
+
+.image-hover-content  i{
+	font-size: 40px;
+	position: absolute;
+	top: 20%;
+	left: 45%;
+	color: white;
+}
+
+.image-hover-content h3{
+	top: 40%;
+	position: absolute;
+	left: 30%;
+}
+
+.our-team .image-hover-content h3{
+	top: 40%;
+	position: absolute;
+	left: 25%!important;
+}
+
+.our-team .image-hover-content{
+	margin-top: 30px!important;
+}
+
+.our-team img{
+	
+	border-radius: 10px;
+	margin-top: 30px;
+}
+
+
+hr{
+	border:1px solid grey;
+	width: 70%;
+}
+
+.img-hover:hover .image-hover-content{
+	right: 0;
+}
+
+.work-img{
+	margin-top: 30px!important;
+}
+
+/* our pricing */
+
+.pricing-section h2{
+	font-weight: bold;
+}
+
+.pricing-section{
+	background-color: #f4f4f4;
+}
+
+.pricing-section button{
+	background-color: grey;
+	color: white;
+	width: 50%;
+
+}
+
+
+.pricing-section .card:hover{
+	background-color: #f62e2a!important;
+	transition: 0.5s ease;
+	transform: scale(1.1,1.1);
+	color: white!important;
+}
+
+/* contact css */
+
+.contact-section{
+	background: url(../img/earth-lights-world-41949.jpg) no-repeat center top;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+.form-control{
+	background: transparent!important;
+	color: white;
+}
+::placeholder{
+	color: red!important;
+}
+@media(max-width: 767px){
+	.header-tag h1{
+		font-size: 36px;
+	}
+
+	h1{
+		font-size: 36px!important;
+	}
+	h2{
+		font-size: 32px!important;
+	}
+	.header-tag{
+		padding: 50px 0px!important;
+	}
+
+	.header-tag p{
+		text-align: justify;
+		margin: 0px 10px;
+	}
+
+	.about-us h1{
+		font-size: 36px;
+	}
+
+	.about-us{
+		padding: 30px 0px!important;
+	}
+
+	.about-us button{
+		width: 100%!important;
+	}
+
+	.about-us img{
+		margin-top: 30px;
+	}
+
+	.about-us img:hover{
+	transform: translate(15px, 30px)!important;
+	-webkit-transition: 0.5s ease;
+	-moz-transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	transition: 0.5s ease;
+	
+	}
+	.our-service{
+		padding: 30px 0px!important;
+	}
+
+	.our-service p{
+		text-align: justify;
+	}
+
+	.three{
+		margin-bottom: 30px!important;
+	}
+
+	.latest-work{
+		padding: 30px 0px!important;
+	}
+
+	.latest-work p{
+		text-align: justify!important;
+	}
+
+	.pricing-section button{
+	color: white;
+	width: 70%;
+	}
+
+	.pricing-section{
+		padding: 30px 0px!important;
+	}
+
+	.price-plan{
+		margin-bottom: 30px!important;
+	}
+
+.our-team .image-hover-content h3{
+	top: 40%;
+	position: absolute;
+	left: 20%!important;
+}
+
+.our-team{
+	padding-bottom: 30px 0px!important;
+}
+
+.contact-section{
+	padding: 30px 0px !important;
+}
+}
